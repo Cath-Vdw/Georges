@@ -50,10 +50,6 @@ a {
     text-decoration: none;
 }
 
-a>button {
-    display: none;
-}
-
 a>img {
     height: 60px;
 }
@@ -148,15 +144,6 @@ header>p {
     nav>ul {
         flex-direction: column;
         align-items: center;
-    }
-
-    a>button {
-        display: block;
-        background-color: #ffb540;
-        color: #c45924;
-        font-size: 0.9rem;
-        padding: 10px;
-
     }
 }
 
