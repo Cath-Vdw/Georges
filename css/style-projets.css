@@ -24,8 +24,8 @@ aside figure>img {
 figure>img {
     border: solid 2px;
     border-radius: 8%;
-    height: 210px;
-    width: 280px;
+    height: 180px;
+    width: 240px;
 }
 
 
@@ -129,16 +129,16 @@ span {
 
     article figure>img,
     aside figure>img {
-        height: 175px;
-        width: 200px;
+        height: 135px;
+        width: 180px;
     }
 
     @media screen and (min-width:1200px) {
 
         article figure>img,
         aside figure>img {
-            height: 210px;
-            width: 280px;
+            height: 180px;
+            width: 240px;
         }
     }
 }
