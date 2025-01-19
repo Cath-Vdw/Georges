@@ -14,7 +14,6 @@ button:hover {
 
 div.champ {
     align-self: stretch;
-
 }
 
 fieldset,
@@ -35,7 +34,7 @@ form>div {
 
 input[type=textarea] {
     min-height: 3rem;
-    min-width: 10rem;
+    min-width: 9rem;
 }
 
 input,
