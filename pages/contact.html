@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-contact.css">
+
+    <title>Me contacter</title>
+</head>
+
+<body>
+    <header>
+        <h1>Me contacter</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html"><img src="../img/bernard-l-ermite-icone.png"
+                        alt="icone d'un bernard l'ermite"></a>
+            </li>
+            <li><a href="./moi.html">A propos de moi</a></li>
+            <li><a href="./projets.html">Liste de mes projets</a></li>
+            <li><a href="./contact.html">Me contacter</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form method="post">
+            <fieldset>
+                <legend>Informations personnelles</legend>
+                <div class="champ">
+                    <label for="lastname">Nom de Famille*:</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div class="champ">
+                    <label for="firstname">Prénom*:</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div class="champ">
+                    <label for="email">Adresse mail*:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="champ radio">
+                    Votre espèce:
+                    <input type="radio" name="espece" id="crustace" value="cr">
+                    <label for="crustace">Crustacé</label>
+                    <input type="radio" name="espece" id="humain" value="hu">
+                    <label for="humain">Humain</label>
+                    <input type="radio" name="espece" id="autre" value="au">
+                    <label for="autre">Autre</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Type de demande</legend>
+                <div class="champ">
+                    <label for="raison">Je vous contacte...</label>
+                    <select id="raison">
+                        <option value="info">Pour plus d'informations sur vos logements</option>
+                        <option value="louer">Parce que j'ai un logement disponible</option>
+                        <option value="catch">Parce que je suis aussi dans le catch marin amateur</option>
+                        <option value="autre">Pour une autre raison</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="champ">
+                    <label for="demande">Explicitez votre demande en quelques phrases</label>
+                    <input type="textarea" name="demande" id="demande">
+                </div>
+            </fieldset>
+
+            <div> <button>Envoyer</button>
+                <button>Annuler</button>
+                <p>Les champs notés * sont obligatoires</p>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        ©️ Georges - 2025
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+
+/* Navigation */
+
+section ul>li{
+    list-style:url("../img/coquillage-icone.png")
+}
+
+
+/* Responsive */
+
+main {
+    color: #57372b;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  auto; 
+}
+
+main section{
+    align-self:baseline;
+    display: grid;
+    padding: 0 30px;
+}
+
+@media screen and (max-width:992px) {
+    main {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:  auto; 
+    }
+    section ul>li{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows:  auto; 
+        padding: 0 25px;
+    }
+}
+
+
