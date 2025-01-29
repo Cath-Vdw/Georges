@@ -3,8 +3,8 @@
 button {
     background-color: #ffb540;
     color: #c45924;
-    font-size: 0.9rem;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 8px;
 }
 
 button:hover {
@@ -13,12 +13,7 @@ button:hover {
 }
 
 div.champ {
-    align-self: stretch;
-}
-
-fieldset,
-form>div {
-    margin: 1%;
+    min-width: 20rem;
 }
 
 fieldset {
@@ -27,14 +22,25 @@ fieldset {
     display: grid;
 }
 
+fieldset,
+form>div {
+    margin: 1% 5%;
+}
+
 form>div {
     opacity: 0.8;
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+
+input[type="radio"] {
+    margin-top: -2px;
+    vertical-align: middle;
 }
 
 input[type=textarea] {
     min-height: 3rem;
-    min-width: 9rem;
+    min-width: 20rem;
 }
 
 input,
@@ -48,6 +54,11 @@ select {
     margin-top: 10px;
 }
 
+label,
+div.radio {
+    font-size: 1.3rem;
+}
+
 legend {
     font-weight: bold;
 }
@@ -56,6 +67,10 @@ legend {
 /* Responsive */
 
 @media screen and (min-width:1400px) {
+
+    div.champ {
+        min-width: 25rem;
+    }
 
     fieldset,
     form>div {
@@ -75,6 +90,10 @@ legend {
 
 @media screen and (min-width:992px) {
 
+    div.champ {
+        min-width: 12rem;
+    }
+
     fieldset:first-of-type {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
@@ -88,3 +107,6 @@ legend {
         gap: 15px;
     }
 }
+
+
+

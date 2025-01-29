@@ -137,8 +137,17 @@ span {
 
         article figure>img,
         aside figure>img {
-            height: 180px;
-            width: 240px;
+            height: 175px;
+            width: 220px;
+        }
+    }
+
+    @media screen and (min-width:1500px) {
+
+        article figure>img,
+        aside figure>img {
+            height: 240px;
+            width: 320px;
         }
     }
 }

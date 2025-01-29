@@ -2,7 +2,8 @@
 /* Navigation */
 
 section ul>li{
-    list-style:url("../img/coquillage-icone.png")
+    list-style:url("../img/coquillage-icone.png");
+    text-align: left;
 }
 
 
