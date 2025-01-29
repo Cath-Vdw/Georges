@@ -108,13 +108,13 @@ header>p {
 
 @media screen and (max-width:1600px) {
     body {
-        width: 1500px;
+        width: 1350px;
     }
 }
 
 @media screen and (max-width:1400px) {
     body {
-        width: 1300px;
+        width: 1200px;
     }
 }
 
@@ -126,7 +126,7 @@ header>p {
 
 @media screen and (max-width:992px) {
     body {
-        width: 885px;
+        width: 850px;
     }
 
     header>img {
