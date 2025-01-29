@@ -142,7 +142,7 @@ span {
         }
     }
 
-    @media screen and (min-width:1500px) {
+    @media screen and (min-width:1600px) {
 
         article figure>img,
         aside figure>img {

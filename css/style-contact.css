@@ -24,7 +24,7 @@ fieldset {
 
 fieldset,
 form>div {
-    margin: 1% 5%;
+    margin: 1%;
 }
 
 form>div {
@@ -38,9 +38,10 @@ input[type="radio"] {
     vertical-align: middle;
 }
 
-input[type=textarea] {
+input[type=textarea],
+input[type=select] {
     min-height: 3rem;
-    min-width: 20rem;
+    min-width: 18rem;
 }
 
 input,
@@ -94,6 +95,11 @@ legend {
         min-width: 12rem;
     }
 
+    fieldset,
+    form>div {
+        margin: 1% 5%;
+    }
+
     fieldset:first-of-type {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
@@ -107,6 +113,3 @@ legend {
         gap: 15px;
     }
 }
-
-
-

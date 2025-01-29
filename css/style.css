@@ -106,9 +106,15 @@ header>p {
 
 /* Responsive */
 
+@media screen and (max-width:1600px) {
+    body {
+        width: 1500px;
+    }
+}
+
 @media screen and (max-width:1400px) {
     body {
-        width: 1320px;
+        width: 1300px;
     }
 }
 
