@@ -1,0 +1,113 @@
+/* Elements du formulaire */
+
+button {
+    background-color: #ffb540;
+    color: #c45924;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: #c45924;
+    color: #ffb540;
+}
+
+div.champ {
+    min-width: 20rem;
+}
+
+fieldset {
+    border: 1px solid #57372b;
+    color: #57372b;
+    display: grid;
+}
+
+fieldset,
+form>div {
+    margin: 1% 5%;
+}
+
+form>div {
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+
+input[type="radio"] {
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+input[type=textarea], input[type=select]{
+    min-height: 3rem;
+    min-width: 18rem;
+}
+
+input,
+select {
+    background-color: #ffb540;
+    border: 1px solid #c45924;
+    border-radius: 4px;
+    color: #c45924;
+    font-size: 0.9rem;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+label,
+div.radio {
+    font-size: 1.3rem;
+}
+
+legend {
+    font-weight: bold;
+}
+
+
+/* Responsive */
+
+@media screen and (min-width:1400px) {
+
+    div.champ {
+        min-width: 25rem;
+    }
+
+    fieldset,
+    form>div {
+        margin: 2% 5%;
+    }
+
+    input,
+    select {
+        font-size: 1rem;
+    }
+
+    input[type=textarea] {
+        min-height: 3rem;
+        min-width: 20rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    div.champ {
+        min-width: 12rem;
+    }
+
+    fieldset:first-of-type {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+
+    fieldset:last-of-type {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 15px;
+    }
+}
+
+
+
+
